@@ -36,3 +36,52 @@ footer {
     font-weight: 400;
     margin-bottom: 24px;
 }
+
+hr,
+.media-icon {
+    max-width: 1440px;
+    display: block;
+    margin: 32px auto;
+    overflow: hidden;
+}
+
+.media-icon i {
+    /* margin-right: .4rem; */
+    padding: 7px;
+    border-radius: 50%;
+    /* min-width: 44px;
+    min-height: 44px; */
+    position: relative;
+    font-size: 1.6rem;
+}
+
+.media-icon i:hover {
+    background-color: rgb(207, 204, 204);
+    /* border-radius: 50%; */
+}
+
+.terms {
+    max-width: 1440px;
+    margin: 32px auto;
+    text-decoration: none;
+    display: flex;
+}
+
+.terms li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.terms li:hover {
+    text-decoration: underline;
+}
+
+.seperator {
+    margin: 0 32px;
+}
+
+.copyright {
+    color: gray;
+    max-width: 1440px;
+    margin: 12px auto;
+}
