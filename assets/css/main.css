@@ -24,6 +24,10 @@
     color: black;
 }
 
+.annoucements span a:hover {
+    text-decoration: none;
+}
+
 .left-right-section {
     display: flex;
     margin-bottom: 32px;
@@ -97,4 +101,134 @@ h3 {
     line-height: 1.5;
     font-weight: 100;
     font-size: 24px;
+}
+
+section {
+    display: flex;
+}
+
+.top-bottom-section {
+    width: 50%;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bottom-section .image {
+    display: flex;
+    width: 100%;
+}
+
+.top-bottom-section .image img {
+    width: 100%;
+}
+
+.top-bottom-section .text {
+    display: flex;
+    flex-direction: column;
+    background-color: #D4E9E2;
+    padding: 16px 32px 24px 24px;
+    color: #1e3932;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bottom-section:first-child .section-container {
+    margin-right: 16px;
+}
+
+.top-bottom-section:last-child .section-container {
+    margin-left: 16px;
+}
+
+.top-bottom-section .text h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.top-bottom-section .text h3 {
+    font-size: 19px;
+    line-height: 1.75;
+}
+
+.lower {
+    margin-bottom: 32px;
+}
+
+.lower .text {
+    background-color: #d5eae5;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.text1 span {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.5;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.text1 a {
+    color: black;
+}
+
+.text1 a:hover {
+    text-decoration: none;
+}
+
+.text3 {
+    margin: 0;
+    max-width: 1440px;
+    margin-top: 3.2rem;
+    display: block;
+}
+
+.text3 .demo {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.text3 span {
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.5;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.text4 {
+    display: flex;
+    justify-content: center;
+}
+
+.text4 span {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 1.5;
+    margin: 0;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, .56);
 }
